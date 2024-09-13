@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+  <nav>
+        
+    <ul style="border: 2px solid rgb(5, 5, 5);">
+       <!-- <img src="logo.jpg" class="logo"> -->
+        <li class="nv"><a href="home.html" class="link" style="background-color: rgb(40, 39, 39);">Home</a></li>
+        <li class="nv"><a href="about.html" class="link" style="background-color: rgb(40, 39, 39);">About</a></li>
+        <li class="nv"><a href="education.html" class="link" style="background-color: rgb(40, 39, 39);">Education</a></li>
+        <li class="nv"><a href="contact.html" class="link" style="background-color: rgb(40, 39, 39); color: #f4637b;">Contact</a></li>
+        <li class="nv"><a href="projects.html" class="link" style="background-color: rgb(40, 39, 39);">Projects</a></li>
+        <li class="nv"><a href="#" class="link" style="background-color: rgb(40, 39, 39);">Hire me</a></li>
+        
+    </ul>
+</nav>
+
+    <!--Hire me page-->
+    <section id="hireme">
+
+    <hr>
+        <div class="contact1">
+            <h2 style="color: orange; margin-bottom: 20px; text-align: center;">CONTACT</h2>
+            <p style="margin-bottom: 30px; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repudiandae molestias!<br>Facilis id delectus atque quaerat eos saepe cumque debitis.</p>
+            <div class="contact-box">
+
+                <div class="contact-left">
+                    <h3 style="background-color: #fff; color: orange;">Hire me</h3>
+
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>jaiswalharsh351@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+91 748 808 70953</td>
+                        </tr>
+                        <tr>
+                            <td>Address:</td>
+                            <td>Om sai vishnu bihar colony<br>
+                                Deva road, Matiyari, Lucknow,<br>
+                                Uttar Pradesh, Pin-226028</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="contact-right">
+                    <h3 style="background-color: orange; color: #fff;">Sent Message</h3>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Company name">
+                            </div>
+                        <label style="margin-left: 70px;">Phone</label>
+                        <input type="number" placeholder="+91 000 000 0000">
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="name123@gmail.com">
+                            </div>
+                        <label style="margin-left: 65px;">Subject</label>
+                        <input type="text" placeholder="+91 000 000 0000">
+                        </div>
+
+                        <label class="lebel">Message</label>
+                        <textarea rows="5">Write a message here</textarea>
+
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <hr>
+    </section>
+    <div style="height: 30px;">
+        <p class="text-center"><b>Designed and Developed by : Harsh Jaiswal</b></p>
+    </div>
+</body>
+</html>
+
+
+
+/* Navbar */
+.nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 14px 20px;
+}
+
+.nav ul li a {
+    color: #f4637b;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    background-color: #575757;
+    color: #fff;
+}
+
+/* Home Section */
+#home {
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.detail h3 {
+    margin: 0;
+}
+
+.detail h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+.detail p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.detail a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.detail a:hover {
+    background-color: #ff9900;
+}
+/* Main section */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+    margin-top: 20px; /* Optional, adds space below the navbar */
+}
+/* Social Media */
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    margin: 0 10px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
